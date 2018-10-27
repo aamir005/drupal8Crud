@@ -1,0 +1,14 @@
+{
+  "name": "drupal/crudoperation",
+  "type": "drupal-module",
+  "description": "This module is used to provide the code for crud operation",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/crudoperation",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/crudoperation",
+    "source": "http://cgit.drupalcode.org/crudoperation"
+  },
+  "require": { }
+}

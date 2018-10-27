@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains crudoperation.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function crudoperation_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the crudoperation module.
+    case 'help.page.crudoperation':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('This module is used to provide the code for crud operation') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function crudoperation_theme() {
+  return [
+    'crudoperation' => [
+      'render element' => 'children',
+    ],
+  ];
+}

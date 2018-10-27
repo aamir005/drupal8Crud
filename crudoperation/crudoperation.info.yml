@@ -1,0 +1,5 @@
+name: 'CrudOperation'
+type: module
+description: 'This module is used to provide the code for crud operation'
+core: 8.x
+package: 'Custom'

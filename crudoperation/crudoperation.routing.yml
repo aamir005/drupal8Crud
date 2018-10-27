@@ -1,0 +1,9 @@
+
+crudoperation.create_update_form:
+  path: 'crudform'
+  defaults:
+    _form: '\Drupal\crudoperation\Form\CreateUpdateForm'
+    _title: 'CreateUpdateForm'
+  requirements:
+    _access: 'TRUE'
+  
